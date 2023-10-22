@@ -5,23 +5,29 @@
 		<title>My First Page</title>
 	</head>
 	<body>
-		<main>
+		<main id = "top">
+			<div>
+				<p><a href = "https://learn.shayhowe.com/html-css/"> Textbook </a></p>
+				<p><a href = "fontawesome-demo.html"> FontAwesome Demo </a></p>
+				<p><a href = "#footer">Go to Footer</a></p>
+			</div>
 			<p>This is my main code</p>
 			<figure>
-				<img src = "imgs/oct19_Duc_smileAlley.jpg"
+				<a href = "imgs/oct19_Duc_smileAlley.jpg" target = "_blank"><img src = "imgs/oct19_Duc_smileAlley.jpg"
 					 width = "500px" 
-					 alt = "man smiling and leaning against stone wall">
-				<figcaption>Set image size</figcaption>
+					 alt = "man smiling and leaning against stone wall"></a>
+				<figcaption>Set image size (Clickable image, opened in a new tab)</figcaption>
 			</figure>
 			<figure>
-				<img src = "imgs/oct19_Duc_smileAlley.jpg"
+				<a href = "firstPage.html" target = "_blank"><img src = "imgs/oct19_Duc_smileAlley.jpg"
 					 width = "50%" 
-					 alt = "man smiling and leaning against stone wall">
-				<figcaption>Relative image size</figcaption>
+					 alt = "man smiling and leaning against stone wall"></a>
+				<figcaption>Relative image size (Clickable image, redirected to firstPage.html in a new tab/window)</figcaption>
 			</figure>
 		</main>
-		<footer>
+		<footer id="footer">
 			<p>Think of a more interesting footer</p>
+			<a href = "#top">Back to top</a>
 		</footer>
 	</body>
 </html>
